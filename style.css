@@ -97,6 +97,9 @@ a:hover{
 color: turquoise;
 transform: scale(1.2);
 }
+main{
+    margin-top:20px;
+}
 .redes {
 display: flex;
 flex-direction: column;
