@@ -51,7 +51,7 @@ line-height: 1.6;
 }
 .header{
 position: sticky;
-bottom:1;
+bottom:2;
 top: 1px;
 z-index: 1000;
 background: rgba(1, 1, 36, 0.85); 
