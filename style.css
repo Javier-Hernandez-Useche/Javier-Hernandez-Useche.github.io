@@ -61,7 +61,7 @@ margin: 0px 0px 0px 0px;
 z-index: 1000;
 }
 .nav-list{
-margin-top:1px;
+margin-top: 0px;
 display: flex;
 font-size: 20px;
 justify-content: center;
@@ -139,11 +139,11 @@ color: #0077B5;
 color: #FF0000;
 }
 section{
-background-color:  #2146ad;
+background-color:#2146ad;
 margin:  5px 20px 30px 20px;
 padding: 20px;
 border-radius: 15px;
-box-shadow: 0 0 20px rgb(0, 247, 255);
+box-shadow: 0 0 20px #00F7FF;
 }
 .button{
 position: relative;
@@ -214,12 +214,12 @@ border-radius: 50%;
 object-fit: cover;
 display: block;
 margin: 20px auto;
-border: 2px solid #00F7FF;
+border: 1px solid #2146ad;
 box-shadow: 0 0 10px cyan;
 transform: rotate(-15deg); 
 }
 footer {
-color: #ffffff;    
+color: white;    
 text-align: center;  
 padding: 10px;
 }
@@ -235,12 +235,19 @@ border-radius: 15px;
 margin: 2px 2px 2px 2px;
 flex: 1 1 50px;
 max-width: 100%;
+border: 2px solid #00F7FF;
 }
 .educacion {
-background: linear-gradient(135deg, rgb(0, 247, 255), #1E3A8A);
+background-color: #2146ad;
+box-shadow: none;
 }
 .habilidades {
-background: linear-gradient(135deg, #1E3A8A, rgb(0, 247, 255));
+background-color: #2146ad;
+box-shadow: none;
+}
+.experience {
+background-color:#2146ad;
+border: 2px solid yellow;
 }
 .edu-skills h2 {
 text-align: center;
