@@ -56,12 +56,12 @@ text-shadow: 0 0 10px #00FFFF;
 position: sticky;
 top: 0px;
 background: rgb(1, 1, 36);
-padding: 10px;
-margin: 0px 0px 20px 0px;
+padding: 5px;
+margin: 0px 0px 0px 0px;
 z-index: 1000;
 }
 .nav-list{
-margin-top:5px;
+margin-top:1px;
 display: flex;
 font-size: 20px;
 justify-content: center;
@@ -140,7 +140,7 @@ color: #FF0000;
 }
 section{
 background-color:  #2146ad;
-margin:  8px 20px 30px 20px;
+margin:  5px 20px 30px 20px;
 padding: 20px;
 border-radius: 15px;
 box-shadow: 0 0 20px rgb(0, 247, 255);
