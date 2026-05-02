@@ -7,7 +7,7 @@ scroll-behavior: smooth;
 body{
 color: white;
 font-family:Arial, Helvetica, sans-serif;
-background-color: rgb(1, 1, 36);
+background: linear-gradient(160deg, #010124, #020a3a, #000814);
 min-height: 100vh;
 }
 h1{
@@ -233,8 +233,7 @@ flex-wrap: wrap;
 padding: 10px;
 border-radius: 15px;
 margin: 2px 2px 2px 2px;
-flex: 1 1 300px;
-win-width:0;
+flex: 1 1 50px;
 max-width: 100%;
 border: 2px solid #00F7FF;
 }
@@ -248,7 +247,7 @@ box-shadow: none;
 }
 .experience {
 background-color:#2146ad;
-border: 2px solid yellow;
+border: 2px solid #00F7FF;
 }
 .edu-skills h2 {
 text-align: center;
@@ -274,7 +273,7 @@ flex-direction: column;
     color: #E34F26;
     text-shadow: 0 0 8px #E34F26;
 }
-.fa-css3{
+.fa-css3-alt{
     color: #1572B6;
     text-shadow: 0 0 10px #1572B6;
 }
